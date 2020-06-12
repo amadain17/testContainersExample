@@ -13,7 +13,9 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @Entity
 public class Employee {
-    private @Id @GeneratedValue Long id;
+    private @Id
+    @GeneratedValue
+    Long id;
     private String firstName;
     private String lastName;
     private String role;
